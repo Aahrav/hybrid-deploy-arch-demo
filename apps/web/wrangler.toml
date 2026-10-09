@@ -20,7 +20,7 @@ not_found_handling = "single-page-application"
 ALB_HOST = "campuswall-alb-1568686338.ap-south-1.elb.amazonaws.com"
 
 # Reveals the load-generator button in the UI. See docs/ARCHITECTURE.md.
-SHOW_STRESS = "false"
+SHOW_STRESS = "true"
 
 # CPU burned per press of that button, in milliseconds. Lives here rather than
 # in EC2 user data so it can be retuned mid-demo with a commit (~40s) instead
